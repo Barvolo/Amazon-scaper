@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazon Price Comparison</title>
+    <script src="/static/app.js" defer></script> <!-- Make sure this line points to the correct location -->
+    <link rel="stylesheet" href="/static/styles.css">
+    <link rel="shortcut icon" href="/favicon/favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <h1 class="title">Amazon Price Comparison</h1>
+        <div class="search-container">
+            <input type="text" id="search-query" placeholder="Search for an item">
+            <button onclick="searchItems()">🔍  SEARCH  🔍</button>
+        </div>
+        <div id="results"></div>
+        <div class="past-searches-container">
+            <a href="#" id="past-searches-link">My past searches</a>
+          </div>
+        <div id="error" style="display: none;"></div>
+    </div>
+    <div id="loader" class="loader" style="display: none;"></div>
+</body>
+</html>

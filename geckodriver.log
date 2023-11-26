@@ -1,0 +1,51 @@
+1689794464930	geckodriver	INFO	Listening on 127.0.0.1:60112
+1689794465414	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/ft/1dywfpl97tq3b8ly1m3l1m9w0000gn/T/rust_mozprofileqj0NfP"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1689794465939	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag -remote-allow-hosts\n"
+1689794466245	Marionette	INFO	Listening on port 60193
+Read port: 60193
+WebDriver BiDi listening on ws://127.0.0.1:60113
+1689794466332	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:60113/devtools/browser/83913dcd-6031-4a2a-aa2e-d105e94ba883
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://my.runi.ac.il."
+JavaScript error: https://www.memcyco.com/siteseal/mutha/jquery-3.6.1.min.js?username=0.47912343705104066&wsID=0.898054452415346, line 1: ReferenceError: dataToRecord is not defined
+1689794641389	geckodriver	INFO	Listening on 127.0.0.1:60967
+1689794641394	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/ft/1dywfpl97tq3b8ly1m3l1m9w0000gn/T/rust_mozprofilegQsCgY"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1689794641817	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag -remote-allow-hosts\n"
+1689794642076	Marionette	INFO	Listening on port 60977
+WebDriver BiDi listening on ws://127.0.0.1:60968
+Read port: 60977
+1689794642281	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:60968/devtools/browser/544d6850-d27d-460c-b1fc-73bf2253b0a5
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://my.runi.ac.il."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://my.runi.ac.il."
+console.error: "isValidHoverTarget rejected with unexpected reason:"
+console.error: (new TypeError("rule is undefined", "resource://devtools/client/inspector/rules/utils/utils.js", 192))
+console.error: "isValidHoverTarget rejected with unexpected reason:"
+console.error: (new TypeError("rule is undefined", "resource://devtools/client/inspector/rules/utils/utils.js", 192))
+console.error: (new TypeError("watcher.browserElement.browsingContext is null", "resource://devtools/server/actors/watcher/target-helpers/frame-helper.js", 193))
+1689794742255	geckodriver	INFO	Listening on 127.0.0.1:61436
+1689794742261	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/ft/1dywfpl97tq3b8ly1m3l1m9w0000gn/T/rust_mozprofile8Ycuzz"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1689794742687	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag -remote-allow-hosts\n"
+1689794742941	Marionette	INFO	Listening on port 61446
+WebDriver BiDi listening on ws://127.0.0.1:61437
+Read port: 61446
+1689794743145	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:61437/devtools/browser/1200c375-e79c-47a9-92e6-5fd53c8d11c0
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://my.runi.ac.il."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://my.runi.ac.il."
+1689794788103	Marionette	INFO	Stopped listening on port 60977
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+console.error: (new TypeError("watcher.browserElement.browsingContext is null", "resource://devtools/server/actors/watcher/target-helpers/frame-helper.js", 193))
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://my.runi.ac.il."
+1689794904829	Marionette	INFO	Stopped listening on port 61446
+1689794910311	Marionette	INFO	Stopped listening on port 60193
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.

@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-image: linear-gradient(135deg, #2b2b2b 0%, #161c2a 100%);
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 16px;
+}
+
+@keyframes typing {
+    0% {
+        width: 0;
+    }
+    100% {
+        width: 100%;
+    }
+}
+
+@keyframes blink {
+    0%, 100% {
+        border-color: #00c8ff;
+    }
+    50% {
+        border-color: transparent;
+    }
+}
+
+.loader {
+    border: 5px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 5px solid #3498db;
+    width: 40px;
+    height: 40px;
+    animation: spin 1.5s linear infinite;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  @keyframes spin {
+    0% { transform: translate(-50%, -50%) rotate(0deg); }
+    100% { transform: translate(-50%, -50%) rotate(360deg); }
+  }
+
+.title {
+    font-size: 42px;
+    font-weight: 400;
+    color: #00c8ff;
+    margin-bottom: 32px;
+    text-align: center;
+    overflow: hidden;
+    white-space: nowrap;
+    animation: typing 3s steps(30, end) forwards;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+
+.search-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 32px;
+    padding: 8px;
+}
+
+input[type="text"] {
+    font-size: 20px;
+    padding: 8px;
+    border: none;
+    border-radius: 4px 0 0 4px;
+    background-color: #fff;
+    color: #2b2b2b;
+    width: 70%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease-in-out;
+    margin-right: 8px;
+}
+input[type="text"]:focus {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+button {
+    font-size: 20px;
+    color: #fff;
+    background-color: #00c8ff;
+    border: none;
+    border-radius: 0 4px 4px 0;
+    padding: 8px 16px;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+    width: 30%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.2s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+
+button:hover {
+    background-color: #060607;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 16px;
+    border: 2px solid #fff;
+    font-size: 16px;
+}
+
+th {
+    background-color: #00c8ff;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 12px 8px;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.search-history-table {
+  
+  justify-content: center;
+
+}
+
+
+td {
+    border: 1px solid #fff;
+    padding: 12px 8px;
+    text-align: left;
+    color: #fff;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+@media (max-width: 767px) {
+    th, td {
+        padding: 8px 4px;
+        font-size: 14px;
+    }
+}
+
+tr:nth-child(even) {
+    background-color: #2b2b2b;
+}
+
+#error {
+    font-size: 18px;
+    color: #f00;
+    margin-top: 16px;
+    text-align: center;
+}
+
+td:hover {
+    background-color: #434a5e; /* change background color on hover */
+    color: #fff; /* change text color on hover */
+  }
+
+  tr:hover {
+    background-color: #3c3c3c;
+    color: #fff;
+    cursor: pointer;
+}
+
+
+table a {
+    color: #ffffff;
+    font-size: 1.2em;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+table a:hover {
+    color: #00c8ff;
+    text-decoration: underline;
+}
+
+.past-searches-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 16px;
+}
+
+#past-searches-link {
+    display: inline-block;
+    font-size: 20px;
+    padding: 8px 16px;
+    color: #fff;
+    background-color: #00c8ff;
+    border: none;
+    border-radius: 4px;
+    text-decoration: none;
+    cursor: pointer;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.2s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+#past-searches-link:hover {
+    background-color: #060607;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
