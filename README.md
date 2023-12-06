@@ -1,5 +1,8 @@
 Amazon Price Comparison Web Application
 
+[![Video Title](https://img.youtube.com/vi/8TZqG4Co2gg/0.jpg)](https://www.youtube.com/watch?v=8TZqG4Co2gg)
+
+
 This application allows users to search for products on Amazon and compare prices across different Amazon websites (Amazon.com, Amazon.co.uk, Amazon.de, Amazon.ca).
 Getting Started
 
